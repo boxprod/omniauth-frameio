@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-
-require "omniauth/frameio"
+require "bundler/setup"
+require "omniauth-frameio"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
