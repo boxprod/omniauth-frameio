@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
 require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
+    # Frame.io strategy
     class Frameio < OmniAuth::Strategies::OAuth2
       # Give your strategy a name.
       option :name, 'frameio'

@@ -1,14 +1,36 @@
+# AllCops:
+#   TargetRubyVersion: 2.6.0
+#   NewCops: enable
+
+# Style/StringLiterals:
+#   Enabled: true
+#   EnforcedStyle: double_quotes
+
+# Style/StringLiteralsInInterpolation:
+#   Enabled: true
+#   EnforcedStyle: double_quotes
+
+# Layout/LineLength:
+#   Max: 120
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+    - 'spec/spec_helper.rb'
+Metrics/MethodLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+Metrics/AbcSize:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+    - 'spec/spec_helper.rb'
 AllCops:
-  TargetRubyVersion: 2.6
   NewCops: enable
-
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Layout/LineLength:
-  Max: 120
+  Exclude:
+    - 'omniauth-frameio.gemspec'
