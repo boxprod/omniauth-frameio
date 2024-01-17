@@ -5,7 +5,7 @@ RSpec.describe OmniAuth::Strategies::Frameio do
 
   context 'client options' do
     it 'should have correct site' do
-      expect(subject.options.client_options.site).to eq('https://api.frame.io')
+      expect(subject.options.client_options.site).to eq('https://api.frame.io/v2/')
     end
 
     it 'should have correct authorize URL' do
