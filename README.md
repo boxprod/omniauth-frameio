@@ -1,5 +1,7 @@
 # Omniauth::Frameio
 
+This gem only extends [omniauth-oauth2](https://github.com/omniauth/omniauth-oauth2) gem by providing specific links to Frame.io auth urls.
+
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
